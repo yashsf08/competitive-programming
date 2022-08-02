@@ -1,2 +1,11 @@
+*
 
-STL/#array.cpp#
+
+!.gitignore
+!*.cpp
+!*/
+!*.org
+!*.md
+
+
+.ccls-cache/@home@yash@Projects@Dooms_Projects@competitive-programming
