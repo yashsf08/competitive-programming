@@ -5,6 +5,7 @@
 !*.cpp
 !*/
 !*.org
+!README.html
 !*.md
 !input.txt
 !output.txt
