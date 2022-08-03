@@ -1,0 +1,4 @@
+value of a: 100
+value of b: 30
+value of c: 2
+-------------------------

@@ -1,0 +1,5 @@
+Taking input values from the user: 
+Sum for the range 2 to 3 is: 8
+Sum for the range 4 to 6 is: 23
+Sum for the range 1 to 5 is: 28
+Sum for the range 3 to 6 is: 25
