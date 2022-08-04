@@ -1,0 +1,10 @@
+1th element is: >>100
+2th element is: >>200
+3th element is: >>200
+4th element is: >>200
+5th element is: >>100
+
+max element in the list is: 200
+
+NOTE: This code will satisfy constraints
+it will run (m + n + n) which is 10^5+10^7=10^7
