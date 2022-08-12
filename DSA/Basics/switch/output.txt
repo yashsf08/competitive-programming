@@ -1,0 +1,9 @@
+The number of 2000 notes require for this amount are: 5
+The number of 500 notes require for this amount are: 0
+The number of 100 notes require for this amount are: 1
+The number of 50 notes require for this amount are: 0
+The number of 20 notes require for this amount are: 1
+The number of 10 notes require for this amount are: 1
+The number of 5 coins require for this amount are: 0
+The number of 2 coins require for this amount are: 1
+The number of 1 coins reqire for this amount are: 0
