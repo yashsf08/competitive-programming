@@ -1,6 +1,5 @@
-Printing Arr...
-1 2 3 4 5 6 
-Printing Brr...
-1 2 3 4 5 
-Printing Drr...
-1 1 1 1 1 1 1 1 
+2
+2
+5
+2
+One or more Sequences are not unique.
