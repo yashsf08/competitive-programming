@@ -1,2 +1,1 @@
-Found the first occurance of the element at: 1
-Found the last occurance of the element at: 4
+The Pivot element is at the index: 2
