@@ -1,0 +1,2 @@
+minimum of maximum is: 113
+Minimum of Maximum is: 100
