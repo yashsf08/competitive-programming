@@ -7,8 +7,8 @@
 !*.org
 !README.html
 !*.md
-!input.txt
-!output.txt
+# !input.txt
+# !output.txt
 
 
 .ccls-cache/@home@yash@Projects@Dooms_Projects@competitive-programming
