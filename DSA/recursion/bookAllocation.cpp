@@ -26,7 +26,7 @@ bool isPossible(int arr[], int size, int m, int mid) {
       count++;
       temp = 0;
     }
-    if (count > m)
+    if (count > m || arr[i] > mid)
       return false;
 
     temp += arr[i];
