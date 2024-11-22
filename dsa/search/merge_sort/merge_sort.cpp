@@ -1,8 +1,4 @@
 #include <bits/stdc++.h>
-#include <cstddef>
-#include <cstdio>
-#include <pstl/glue_algorithm_defs.h>
-#include <vector>
 
 /* Time Complexity O(n log n)
  *
