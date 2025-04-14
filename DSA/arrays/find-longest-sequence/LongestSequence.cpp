@@ -1,7 +1,4 @@
 #include <bits/stdc++.h>
-#include <iostream>
-#include <set>
-#include <vector>
 
 using namespace std;
 
@@ -34,6 +31,7 @@ int findLongestSequenceBF(int n, vector<int> &arr) {
   return maxLen;
 }
 
+// performing sorting
 int findLongestSequence_Better(int n, vector<int> &arr) {
   // TC: O(nlongn + n)
   // SC: O(1)
@@ -45,10 +43,9 @@ int findLongestSequence_Better(int n, vector<int> &arr) {
   if (arr.size() == 1)
     return 1;
 
-  // performing sorting
   sort(arr.begin(), arr.end());
-  int cnt = 1;
   int maxLen = 1;
+  int cnt = 1;
 
   // looping through the whole array to find out maxLen
   for (int i = 0; i < n - 1; ++i) {
@@ -83,14 +80,14 @@ int findLongestSequence_optim(int n, vector<int> &arr) {
   }
 
   // Searching for
-  for (int i = 0; i < n; i++) {
-    if (st.find(arr[i] - 1) == st.end()) {
-      int x = arr[i];
+  for (int num : st) {
+    if (st.find(num - 1) == st.end()) {
+      int x = num;
       int cnt = 1;
 
-      while (st.find(x + 1) != st.end()) {
+      while (st.find(num + 1) != st.end()) {
         cnt++;
-        x = x + 1;
+        x++;
       }
 
       maxLen = max(cnt, maxLen);
